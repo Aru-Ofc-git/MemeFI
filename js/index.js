@@ -1,3 +1,4 @@
+
 function getTgWebAppData(url) {
     // Extract the part after # (the fragment containing the query parameters)
     const fragment = url.split("#")[1];
@@ -277,13 +278,14 @@ async function clickAuto(token, nonce) {
 
 function loop() {
     for (let i = 1; i <= 3; i++) {
-        setTimeout(() => {
-            if (currentHealth == 0) {
+        if (currentHealth == 0) {
                 var level = levelUp(token);
                 console.log(level);
             }
 
             clickAuto(token, nonceToken);
+        setTimeout(() => {
+            console.log("wait 2.5s")
         },2500); // 3000 ms = 3 seconds
     }
     var st = document.querySelector(".start-btn");
