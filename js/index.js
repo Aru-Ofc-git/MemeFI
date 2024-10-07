@@ -276,14 +276,14 @@ async function clickAuto(token, nonce) {
         ];
 }
 
-function loop() {
+async function loop() {
     for (let i = 1; i <= 3; i++) {
         if (currentHealth == 0) {
                 var level = levelUp(token);
                 console.log(level);
             }
 
-            clickAuto(token, nonceToken);
+            var x = await clickAuto(token, nonceToken);
         setTimeout(() => {
             console.log("wait 2.5s")
         },2500); // 3000 ms = 3 seconds
