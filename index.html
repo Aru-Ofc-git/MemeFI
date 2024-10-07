@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Input Box Example</title>
+        <script
+            src="https://kit.fontawesome.com/931b77722f.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="./css/index.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="input-group">
+                <input type="url" placeholder="Enter URL " class="input-box" />
+                <button class="check-btn">Check</button>
+            </div>
+            <div class="contents">
+                <div class="info">
+                    <p>
+                        Name:
+                        <span id="name" style="color: red; font-weidght: bold"
+                            >John Doe</span
+                        >
+                    </p>
+                    <p>
+                        Username:
+                        <span
+                            id="username"
+                            style="color: red; font-weidght: bold"
+                        ></span>
+                    </p>
+                    <p>Level: <span id="level">1</span></p>
+                    <p>Total Coins: <span id="total-coins">100</span></p>
+                    <p>Energy: <span id="energy">100</span></p>
+                    <p>Turbo Booster: <span id="turbo">1</span></p>
+                    <p>Recharge Booster: <span id="rcj">100</span></p>
+                    <p>
+                        Referred By:
+                        <span
+                            id="refname"
+                            style="color: red; font-weidght: bold"
+                            >John Doe</span
+                        >
+                    </p>
+                </div>
+                <div class="buttons">
+                    <button class="start-btn">Start</button>
+                </div>
+                <center>
+                    <div class="rotating-squares" style="visibility: hidden">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="message">
+                        <span class="up"></span><br /><br />
+                    </div>
+                </center>
+                <div class="output"></div>
+            </div>
+            <div class="footer-links social-links">
+                <div class="link">
+                    <a href="https://www.facebook.com/1r13a14"
+                        ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                </div>
+                <div class="link">
+                    <a href="https://www.x.com/aruofc">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+                <div class="link">
+                    <a href="https://www.linkedin.com/in/1r13a14">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="link">
+                    <a href="https://github.com/Aru-Ofc-git">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/activate.js" type="text/javascript"></script>
+        <script src="./js/level_up.js" type="text/javascript"></script>
+        <script src="./js/index.js" type="text/javascript"></script>
+    </body>
+</html>
