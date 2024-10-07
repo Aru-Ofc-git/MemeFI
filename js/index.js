@@ -193,7 +193,7 @@ document.querySelector(".check-btn").addEventListener("click", async () => {
                             "freeBoosts"
                         ]["currentRefillEnergyAmount"];
                     document.getElementById("rcj").innerText =
-                        currentTurboAmount +
+                        currentRefillEnergyAmount +
                         " | " +
                         gameInfo[0]["data"]["telegramGameGetConfig"][
                             "freeBoosts"
