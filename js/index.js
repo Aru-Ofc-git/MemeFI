@@ -284,7 +284,7 @@ function loop() {
             }
 
             clickAuto(token, nonceToken);
-        }, i * 3000); // 3000 ms = 3 seconds
+        },2500); // 3000 ms = 3 seconds
     }
     var st = document.querySelector(".start-btn");
     st.disabled = false;
