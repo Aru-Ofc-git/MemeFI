@@ -285,8 +285,8 @@ async function loop() {
 
             var x = await clickAuto(token, nonceToken);
         setTimeout(() => {
-            console.log("wait 2.5s")
-        },2500); // 3000 ms = 3 seconds
+            console.log("wait 3s")
+        },3000); // 3000 ms = 3 seconds
     }
     var st = document.querySelector(".start-btn");
     st.disabled = false;
