@@ -277,7 +277,7 @@ async function clickAuto(token, nonce) {
 }
 
 async function loop() {
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i <= 7; i++) {
         if (currentHealth == 0) {
                 var level = levelUp(token);
                 console.log(level);
